@@ -5,6 +5,7 @@ import { Form } from 'react-bootstrap';
 import { Button } from 'react-bootstrap';
 import { Col } from 'react-bootstrap';
 
+
 import MenuSection from '../MenuSection/MenuSection'
 import './DonateSection.css';
 
@@ -30,7 +31,7 @@ export default function DonateSection() {
                         </Form.Group>
                         <Form.Group controlId="formBasicEmail">
                             <Form.Label className="tellusmore">Број на картичка</Form.Label>
-                            <Form.Control type="email" placeholder="Број на картичка"/>
+                            <Form.Control type="text" placeholder="Број на картичка"/>
                         </Form.Group>
                         <Form.Group >
                             <Form.Label className="tellusmore"> CVV код</Form.Label>
@@ -38,7 +39,7 @@ export default function DonateSection() {
                         </Form.Group>
                         <Form.Group >
                             <Form.Label className="tellusmore">Сума вo денари</Form.Label>
-                            <Form.Control type="text" placeholder="Сума" />
+                            <Form.Control type="number" placeholder="Сума" />
                         </Form.Group>
 
 
